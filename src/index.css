@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic-title: "Aref Ruqaa", serif;
+  --font-arabic-body: "Cairo", sans-serif;
+  --font-amiri: "Amiri", serif;
+  --font-signature: "Great Vibes", cursive;
+}
+
+body {
+  font-family: var(--font-arabic-body);
+  background-color: #fcf9f2;
+}
